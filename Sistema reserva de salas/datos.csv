@@ -1,0 +1,24 @@
+TipoPersona,Nombre,RUT,Funcion,Edificio,Sala,Fecha,HoraInicio,HoraFin
+Profesor,Matias Silva,10018800-5,Investigador,J,23,2025-10-01,10:00,11:00
+Alumno,Camila Torres,10002842-3,Obstetricia,H,27,2025-10-23,8:00,10:00
+Profesor,Valentina Lopez,10015458-1,Jefe de carrera,C,33,2025-10-01,14:00,16:00
+Alumno,Valentina Rojas,10000423-9,Pedagogía en Educación de Párvulos con Menciones: Inglés y Aprendizaje al Aire Libre,B,41,2025-10-25,9:00,12:00
+Profesor,Andres Rojas,10015760-1,Docente,J,21,2025-10-01,08:00,11:00
+Alumno,Camila Rojas,10001330-7,Ingeniería Civil en Obras Civiles,E,50,2025-10-18,17:00,20:00
+Alumno,Camila Torres,10032002-7,Geología,A,56,2025-10-24,10:00,13:00
+Alumno,Andres Torres,10018057-8,Negocios y Ciencia de Datos,B,59,2025-10-26,12:00,13:00
+Alumno,Camila Rojas,10030154-2,Derecho,B,60,2025-10-8,8:00,9:00
+Alumno,Felipe Diaz,10012395-2,Odontología,J,51,2025-10-17,16:00,19:00
+Alumno,Felipe Lopez,10011940-1,Medicina,D,63,2025-10-13,11:00,13:00
+Profesor,Matias Soto,10031051-4,Docente,K,65,2025-10-18,15:00,17:00
+Alumno,Matias Torres,10032663-9,Ingeniería Civil en Informática e Innovación Tecnológica,A,69,2025-10-25,9:00,10:00
+Alumno,Camila Soto,10008303-2,Geología,F,36,2025-10-7,15:00,18:00
+Alumno,Valentina Diaz,10010424-9,Medicina,H,37,2025-10-14,11:00,14:00
+Profesor,Valentina Perez,10006334-1,Docente,E,35,2025-10-25,11:00,12:00
+Profesor,Camila Soto,10017698-2,Docente,G,21,2025-10-19,16:00,17:00
+Profesor,Sofia Diaz,10006315-0,Investigador,G,52,2025-10-17,17:00,19:00
+Profesor,Valentina Diaz,10012167-0,Docente,A,64,2025-10-28,15:00,17:00
+Profesor,Felipe Lopez,10014834-9,Investigador,F,28,2025-10-02,11:00,13:00
+Profesor,Fernanda Silva,10028132-3,Investigador,I,68,2025-10-24,15:00,17:00
+Profesor,Fernanda Diaz,10005409-6,Jefe de carrera,B,49,2025-10-04,16:00,18:00
+estudiante,Alej,24779770-2,miau,s,222,2025-02-21,12:22,12:33
