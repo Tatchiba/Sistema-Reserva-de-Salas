@@ -1,0 +1,21 @@
+tipo_persona,nombre,rut,funcion_o_carrera,edificio,sala,fecha,hora_inicio,hora_fin
+Profesor,Juan Gomez,10019651-8,Investigador,C,31,2025-10-23,17:00,19:00
+Profesor,Felipe Silva,10019854-0,Investigador,F,39,2025-10-14,13:00,14:00
+Profesor,Juan Soto,10002460-0,Jefe de carrera,J,32,2025-10-17,09:00,10:00
+Alumno,Fernanda Perez,10015517-7,Diseno,H,51,2025-10-16,15:00,17:00
+Profesor,Sofia Perez,10001161-9,Jefe de carrera,I,65,2025-10-27,14:00,15:00
+Alumno,Sofia Diaz,10007400-9,Ingenieria Civil en Mineria,A,21,2025-10-6,16:00,17:00
+Profesor,Matias Lopez,10024524-4,Docente,B,21,2025-10-03,15:00,18:00
+Alumno,Fernanda Torres,10017847-7,Pedagogia en Educacion Basica con Menciones: Ingles y Educacion Especial e Inclusion,K,26,2025-10-27,16:00,19:00
+Alumno,Valentina Perez,10003047-5,Ingenieria Civil Plan Comun,E,22,2025-10-26,8:00,9:00
+Alumno,Fernanda Perez,10030208-4,Arquitectura,M,66,2025-10-24,13:00,14:00
+Alumno,Andres Gomez,10024976-4,Global Business Administration,J,68,2025-10-18,12:00,14:00
+Profesor,Camila Lopez,10024336-5,Jefe de carrera,C,33,2025-10-19,08:00,10:00
+Alumno,Juan Rojas,10001065-7,Bachillerato en Diseno,E,48,2025-10-16,9:00,11:00
+Alumno,Valentina Silva,10029170-9,Arquitectura,G,41,2025-10-18,15:00,17:00
+Profesor,Matias Gomez,10018840-2,Jefe de carrera,A,67,2025-10-09,14:00,17:00
+Profesor,Andres Torres,10024496-4,Docente,E,22,2025-10-07,15:00,16:00
+Alumno,Felipe Rojas,10006303-3,Ciencia Politica y Politicas Publicas,I,24,2025-10-7,15:00,16:00
+Alumno,Sofia Gomez,10016881-9,Kinesiologia,K,40,2025-10-5,11:00,12:00
+Alumno,Camila Gomez,10018685-1,Odontologia,A,37,2025-10-1,15:00,17:00
+Profesor,Juan Perez,10025781-7,Jefe de carrera,F,61,2025-10-21,09:00,12:00

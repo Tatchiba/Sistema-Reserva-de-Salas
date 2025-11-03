@@ -29,7 +29,7 @@ int main() {
                     break;
                 }
 
-                FILE *archivo = fopen("datos.csv", "w");
+                FILE *archivo = fopen("Reservas.csv", "w");
                 if (archivo == NULL) {
                     printf("Error al crear archivo\n");
                     break;
@@ -37,13 +37,13 @@ int main() {
 
                 // Columnas del CSV
                 fprintf(archivo, "tipo_persona,nombre,rut,funcion_o_carrera,edificio,sala,fecha,hora_inicio,hora_fin\n");
-                printf("\nGenerando y guardando en archivo 'datos.csv'\n");
+                printf("\nGenerando y guardando en archivo 'Reservas.csv'\n");
 
                 // Datos predefinidos (Despues variar mas,  si se añaden mas se debe cambiar la cantidad por elegir en codigo principal)
                 char *nombres[] = {"Juan", "Camila", "Andres", "Valentina", "Matias", "Fernanda", "Sofia", "Felipe"};
                 char *apellidos[] = {"Perez", "Soto", "Lopez", "Diaz", "Gomez", "Rojas", "Silva", "Torres"};
                 char *funciones[] = {"Docente", "Investigador", "Jefe de carrera"};
-                char *carreras[] = {"Arquitectura", "Bachillerato en Derecho: Ciencias Sociales y Humanidades", "Bachillerato en Diseño", "Bachillerato en Enfermería", "Bachillerato en Ingeniería Comercial", "Bachillerato en Psicología", "Ciencia Política y Políticas Públicas", "Cine y Comunicación Audiovisual", "Derecho", "Diseño", "Enfermería", "Geología", "Global Business Administration", "Ingeniería Civil en BioMedicina", "Ingeniería Civil en Informática e Innovación Tecnológica", "Ingeniería Civil en Informática e Inteligencia Artificial", "Ingeniería Civil en Minería", "Ingeniería Civil en Obras Civiles", "Ingeniería Civil Industrial Doble Titulación", "Ingeniería Civil Plan Común", "Ingeniería Comercial", "Kinesiología", "Medicina", "Negocios y Ciencia de Datos", "Nutrición y Dietética", "Obstetricia", "Odontología", "Pedagogía en Educación Básica con Menciones: Inglés y Educación Especial e Inclusión", "Pedagogía en Educación de Párvulos con Menciones: Inglés y Aprendizaje al Aire Libre", "Periodismo y Comunicación Doble Titulación", "Psicología", "Publicidad y Marketing", "Química y Farmacia", "Tecnología Médica", "Terapia Ocupacional"};
+                char *carreras[] = {"Arquitectura", "Bachillerato en Derecho: Ciencias Sociales y Humanidades", "Bachillerato en Diseno", "Bachillerato en Enfermeria", "Bachillerato en Ingenieria Comercial", "Bachillerato en Psicologia", "Ciencia Politica y Politicas Publicas", "Cine y Comunicacion Audiovisual", "Derecho", "Diseno", "Enfermeria", "Geologia", "Global Business Administration", "Ingenieria Civil en BioMedicina", "Ingenieria Civil en Informatica e Innovacion Tecnologica", "Ingenieria Civil en Informatica e Inteligencia Artificial", "Ingenieria Civil en Mineria", "Ingenieria Civil en Obras Civiles", "Ingenieria Civil Industrial Doble Titulacion", "Ingenieria Civil Plan Comun", "Ingenieria Comercial", "Kinesiologia", "Medicina", "Negocios y Ciencia de Datos", "Nutricion y Dietetica", "Obstetricia", "Odontologia", "Pedagogia en Educacion Basica con Menciones: Ingles y Educacion Especial e Inclusion", "Pedagogia en Educacion de Parvulos con Menciones: Ingles y Aprendizaje al Aire Libre", "Periodismo y Comunicacion Doble Titulacion", "Psicologia", "Publicidad y Marketing", "Quimica y Farmacia", "Tecnologia Medica", "Terapia Ocupacional"};
                 char *edificios[] = {"A","B","C","D","E","F","G","H","I","J","K","L","M"};
 
                 for (int i = 0; i < cantidadReservas; i++) {
@@ -89,7 +89,7 @@ int main() {
                     }
                 }   
                 fclose(archivo);
-                printf("Archivo datos.csv generado correctamente con %d reservas.\n", cantidadReservas);
+                printf("Archivo Reservas.csv generado correctamente con %d reservas.\n", cantidadReservas);
                 break;
             }
             case 3: {
